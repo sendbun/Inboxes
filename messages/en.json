@@ -1,0 +1,139 @@
+{
+  "app": {
+    "name": "TempMail",
+    "title": "Free Temporary Email",
+    "tagline": "Receive emails anonymously with our free, private, and secure temporary email address generator.",
+    "expiresNotice": "Email address and inbox will expire after 3 hours of inactivity."
+  },
+  "pages": {
+    "about": {
+      "title": "About TempMail",
+      "intro": "TempMail provides free temporary email addresses to protect your privacy online.",
+      "sections": [
+        {"h": "Our Mission", "p": "Empower users to maintain privacy with simple, fast, and secure disposable email addresses."},
+        {"h": "How It Works", "p": "Create a temporary inbox instantly, receive emails, and dispose of it when done."}
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "Last updated: January 1, 2025",
+      "sections": [
+        {"h": "Data Collection", "p": "We do not require personal information to use TempMail. Emails in temporary inboxes may be processed to deliver messages and are automatically removed according to expiration settings."},
+        {"h": "Cookies", "p": "We may use minimal cookies to ensure functionality (such as language preferences)."},
+        {"h": "Security", "p": "We implement reasonable safeguards, but temporary inboxes should not be used for sensitive information."}
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "updated": "Last updated: January 1, 2025",
+      "sections": [
+        {"h": "Acceptable Use", "p": "You agree not to use TempMail for illegal activities or to violate others' rights."},
+        {"h": "No Warranty", "p": "TempMail is provided as-is without warranties. Service availability and retention are not guaranteed."},
+        {"h": "Limitation of Liability", "p": "To the extent permitted by law, TempMail shall not be liable for any damages arising from use of the service."}
+      ]
+    }
+  },
+  "nav": {
+    "language": "Language",
+    "selected": "Selected"
+  },
+  "auth": {
+    "login": "Login",
+    "createAccount": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "displayNameOptional": "Display Name (Optional)",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "enterDisplayName": "Enter your display name",
+    "enterUsername": "Enter username",
+    "selectDomain": "Select domain",
+    "loading": "Loading...",
+    "loggingIn": "Logging in...",
+    "creating": "Creating Account...",
+    "generate": "Generate",
+    "passwordRequirements": "Password must be at least 8 characters with uppercase, lowercase, and number",
+    "fullEmail": "Full email:",
+    "quickCreatePrompt": "Need to create additional email accounts?",
+    "createEmailAccount": "Create Email Account",
+    "loginOrCreate": "Login or create your temporary email account"
+  },
+  "sections": {
+    "benefits": {"title": "Why Use TempMail?", "subtitle": "Keep your email clean and your files safe with our temporary email service"},
+    "features": {"title": "TempMail Features", "subtitle": "Everything you need for secure, anonymous email communication"},
+    "useCases": {"title": "When to Use Temporary Email?", "subtitle": "The sky's the limit when it comes to use cases for a temporary mailbox"},
+    "howTo": {"title": "How to Use TempMail", "subtitle": "Get started with temporary email in just a few simple steps"},
+    "faq": {"title": "Frequently Asked Questions", "subtitle": "Everything you need to know about TempMail"},
+    "cta": {"title": "Ready to Protect Your Privacy?", "subtitle": "Start using TempMail today and keep your real email address safe from spam and unwanted communications.", "button": "Get Started Now"}
+  },
+  "benefits": {
+    "privacy": {"title": "Privacy Protection", "description": "Keep your real email address private and avoid spam, ads, and unwanted communications."},
+    "instant": {"title": "Instant Setup", "description": "Generate a temporary email address in seconds. No registration or personal information required."},
+    "secure": {"title": "Secure & Anonymous", "description": "Receive emails anonymously without revealing your identity or personal information."},
+    "cleanup": {"title": "Auto-Cleanup", "description": "Emails are automatically deleted after expiration, keeping your digital footprint minimal."}
+  },
+  "features": {
+    "freeEmail": {"title": "Free Temporary Email", "description": "Generate unlimited temporary email addresses instantly"},
+    "realtime": {"title": "Real-time Inbox", "description": "Receive and view emails in real-time with automatic refresh"},
+    "search": {"title": "Email Search", "description": "Search through your received emails quickly and efficiently"},
+    "filter": {"title": "Smart Filtering", "description": "Filter emails by sender, subject, or date"},
+    "expire": {"title": "Auto-Expiration", "description": "Emails automatically expire after 3 hours of inactivity"},
+    "privacyFirst": {"title": "Privacy First", "description": "No personal data stored, complete anonymity guaranteed"}
+  },
+  "useCases": [
+    "Sign up for free trials",
+    "Test applications",
+    "Create multiple accounts",
+    "Eliminate spam",
+    "Sign up for store loyalty cards",
+    "Communicate with suspicious accounts",
+    "Create anonymous accounts",
+    "Try online services risk-free",
+    "Verify trivial accounts",
+    "Get referral perks"
+  ],
+  "howTo": {
+    "step1": {"title": "Create Account", "description": "Sign up for a free temporary email account with your chosen username and domain"},
+    "step2": {"title": "Use Your Email", "description": "Use your temporary email address on any service that requires email verification"},
+    "step3": {"title": "Receive Messages", "description": "Wait a few moments for verification emails to arrive in your inbox"},
+    "step4": {"title": "Auto-Cleanup", "description": "Emails are automatically deleted after expiration, keeping your privacy intact"}
+  },
+  "errors": {
+    "required": "is required",
+    "emailAndPasswordRequired": "Email and password are required",
+    "unexpected": "An unexpected error occurred. Please try again."
+  },
+  "faq": {
+    "q1": {"q": "How long are emails kept?", "a": "Emails are kept as long as you continue to use your temporary email address. As soon as you close your temporary address, your emails will be deleted along with your temporary account."},
+    "q2": {"q": "Do emails stay private?", "a": "TempMail does not have any access to your temporary email. We don't store any of your personal information or any of the emails you receive."},
+    "q3": {"q": "Where do I see if I've received an email?", "a": "Emails you receive to your temporary mailbox will be displayed in the inbox located in your dashboard after logging in."},
+    "q4": {"q": "How do I change the email address?", "a": "You can create a new temporary email address by creating a new account with a different username or domain."},
+    "q5": {"q": "Can you recover deleted emails?", "a": "No. Unfortunately when you delete the emails you sent or received with the used domain, they are gone for good. We do this so your privacy is protected and your deleted emails aren't left exposed."},
+    "q6": {"q": "What is a temporary email?", "a": "A temporary email is a disposable email address that is only valid for a brief time before being automatically destroyed. TempMail's Temporary Email is a free disposable email designed to keep your personal information private."}
+  },
+  "footer": {
+    "aboutTitle": "TempMail",
+    "about": "Free temporary email service for anonymous and secure communication.",
+    "featuresTitle": "Features",
+    "useCasesTitle": "Use Cases",
+    "supportTitle": "Support",
+    "features": ["Temporary Email", "Anonymous Communication", "Privacy Protection", "Auto-Cleanup"],
+    "useCases": ["Free Trials", "Testing", "Spam Prevention", "Anonymous Accounts"],
+    "support": ["FAQ", "Privacy Policy", "Terms of Service", "Contact"],
+    "copyright": "© 2024 TempMail. All rights reserved. Free temporary email service."
+  },
+  "createEmail": {
+    "title": "Create Email Account",
+    "subtitle": "Create a new temporary email account with your chosen domain",
+    "username": "Username",
+    "enterUsername": "Enter username",
+    "selectDomain": "Select domain",
+    "enterPassword": "Enter password",
+    "loadingDomains": "Loading domains...",
+    "backToInbox": "Back to Inbox",
+    "currentUserAccount": "Current User Account",
+    "success": "Email account {email} created successfully! Redirecting to inbox..."
+  }
+}
+
+

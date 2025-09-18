@@ -1,0 +1,11 @@
+/* Tiptap editor image and scroll fix */
+.tiptap-editor img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.tiptap-editor {
+  min-height: 200px;
+  max-height: 300px;
+  overflow-y: auto;
+} 

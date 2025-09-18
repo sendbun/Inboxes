@@ -1,0 +1,139 @@
+{
+  "app": {
+    "name": "TempMail",
+    "title": "Correo temporal gratuito",
+    "tagline": "Recibe correos de forma anónima con nuestro generador de direcciones temporales gratuito, privado y seguro.",
+    "expiresNotice": "La dirección y el buzón caducan tras 3 horas de inactividad."
+  },
+  "pages": {
+    "about": {
+      "title": "Acerca de TempMail",
+      "intro": "TempMail ofrece direcciones de correo temporales gratuitas para proteger tu privacidad en línea.",
+      "sections": [
+        {"h": "Nuestra misión", "p": "Ayudar a los usuarios a mantener su privacidad con correos desechables simples, rápidos y seguros."},
+        {"h": "Cómo funciona", "p": "Crea un buzón temporal al instante, recibe correos y elimínalo cuando termines."}
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "updated": "Última actualización: 1 de enero de 2025",
+      "sections": [
+        {"h": "Recopilación de datos", "p": "No requerimos información personal para usar TempMail. Los correos en buzones temporales pueden procesarse para su entrega y se eliminan automáticamente según la expiración."},
+        {"h": "Cookies", "p": "Podemos usar cookies mínimas para la funcionalidad (como preferencias de idioma)."},
+        {"h": "Seguridad", "p": "Aplicamos medidas razonables, pero los buzones temporales no deben usarse para información sensible."}
+      ]
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "updated": "Última actualización: 1 de enero de 2025",
+      "sections": [
+        {"h": "Uso aceptable", "p": "Aceptas no usar TempMail para actividades ilegales ni violar derechos de terceros."},
+        {"h": "Sin garantía", "p": "TempMail se proporciona tal cual, sin garantías. No se garantiza disponibilidad ni retención."},
+        {"h": "Limitación de responsabilidad", "p": "En la medida permitida por la ley, TempMail no será responsable por daños derivados del uso del servicio."}
+      ]
+    }
+  },
+  "nav": {
+    "language": "Idioma",
+    "selected": "Seleccionado"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "createAccount": "Crear cuenta",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "displayNameOptional": "Nombre para mostrar (opcional)",
+    "enterEmail": "Introduce tu correo",
+    "enterPassword": "Introduce tu contraseña",
+    "enterDisplayName": "Introduce tu nombre para mostrar",
+    "enterUsername": "Introduce nombre de usuario",
+    "selectDomain": "Selecciona dominio",
+    "loading": "Cargando...",
+    "loggingIn": "Iniciando sesión...",
+    "creating": "Creando cuenta...",
+    "generate": "Generar",
+    "passwordRequirements": "La contraseña debe tener al menos 8 caracteres con mayúsculas, minúsculas y número",
+    "fullEmail": "Correo completo:",
+    "quickCreatePrompt": "¿Necesitas crear cuentas de correo adicionales?",
+    "createEmailAccount": "Crear cuenta de correo",
+    "loginOrCreate": "Inicia sesión o crea tu cuenta de correo temporal"
+  },
+  "sections": {
+    "benefits": {"title": "¿Por qué usar TempMail?", "subtitle": "Mantén tu correo limpio y tus archivos seguros con nuestro servicio de correo temporal"},
+    "features": {"title": "Funciones de TempMail", "subtitle": "Todo lo que necesitas para una comunicación anónima y segura"},
+    "useCases": {"title": "¿Cuándo usar correo temporal?", "subtitle": "Las posibilidades son infinitas para un buzón temporal"},
+    "howTo": {"title": "Cómo usar TempMail", "subtitle": "Empieza con correo temporal en unos pocos pasos"},
+    "faq": {"title": "Preguntas frecuentes", "subtitle": "Todo lo que necesitas saber sobre TempMail"},
+    "cta": {"title": "¿Listo para proteger tu privacidad?", "subtitle": "Empieza a usar TempMail hoy y mantén tu correo real a salvo del spam y comunicaciones no deseadas.", "button": "Empezar ahora"}
+  },
+  "benefits": {
+    "privacy": {"title": "Protección de privacidad", "description": "Mantén tu correo real privado y evita spam, anuncios y comunicaciones no deseadas."},
+    "instant": {"title": "Configuración instantánea", "description": "Genera una dirección temporal en segundos. Sin registro ni datos personales."},
+    "secure": {"title": "Seguro y anónimo", "description": "Recibe correos de forma anónima sin revelar tu identidad ni datos personales."},
+    "cleanup": {"title": "Auto-limpieza", "description": "Los correos se eliminan automáticamente tras caducar, minimizando tu huella digital."}
+  },
+  "features": {
+    "freeEmail": {"title": "Correo temporal gratuito", "description": "Genera direcciones temporales ilimitadas al instante"},
+    "realtime": {"title": "Bandeja en tiempo real", "description": "Recibe y visualiza correos en tiempo real con auto-refresco"},
+    "search": {"title": "Búsqueda de correos", "description": "Busca rápidamente entre los correos recibidos"},
+    "filter": {"title": "Filtrado inteligente", "description": "Filtra por remitente, asunto o fecha"},
+    "expire": {"title": "Auto-caducidad", "description": "Los correos caducan tras 3 horas de inactividad"},
+    "privacyFirst": {"title": "Privacidad primero", "description": "Sin almacenar datos personales; anonimato garantizado"}
+  },
+  "useCases": [
+    "Registrarse en pruebas gratuitas",
+    "Probar aplicaciones",
+    "Crear múltiples cuentas",
+    "Eliminar el spam",
+    "Registrarse en tarjetas de fidelidad",
+    "Comunicarte con cuentas sospechosas",
+    "Crear cuentas anónimas",
+    "Probar servicios en línea sin riesgo",
+    "Verificar cuentas triviales",
+    "Obtener beneficios por referidos"
+  ],
+  "howTo": {
+    "step1": {"title": "Crear cuenta", "description": "Regístrate gratis con tu usuario y dominio elegidos"},
+    "step2": {"title": "Usa tu correo", "description": "Utiliza tu dirección temporal en cualquier servicio que requiera verificación"},
+    "step3": {"title": "Recibe mensajes", "description": "Espera unos momentos a que lleguen los correos de verificación"},
+    "step4": {"title": "Auto-limpieza", "description": "Los correos se eliminan automáticamente tras caducar, manteniendo tu privacidad"}
+  },
+  "errors": {
+    "required": "es obligatorio",
+    "emailAndPasswordRequired": "El correo y la contraseña son obligatorios",
+    "unexpected": "Ocurrió un error inesperado. Vuelve a intentarlo."
+  },
+  "faq": {
+    "q1": {"q": "¿Cuánto tiempo se conservan los correos?", "a": "Se conservan mientras sigas usando tu dirección temporal. Al cerrarla, se borran junto con tu cuenta temporal."},
+    "q2": {"q": "¿Los correos se mantienen privados?", "a": "TempMail no tiene acceso a tu correo temporal. No almacenamos tu información personal ni los correos que recibes."},
+    "q3": {"q": "¿Dónde veo si he recibido un correo?", "a": "Los correos de tu buzón temporal aparecen en la bandeja de entrada del panel tras iniciar sesión."},
+    "q4": {"q": "¿Cómo cambio la dirección de correo?", "a": "Puedes crear una nueva dirección temporal creando otra cuenta con distinto usuario o dominio."},
+    "q5": {"q": "¿Pueden recuperar correos borrados?", "a": "No. Al eliminar los correos enviados o recibidos con el dominio usado, se pierden definitivamente para proteger tu privacidad."},
+    "q6": {"q": "¿Qué es un correo temporal?", "a": "Es una dirección desechable válida por poco tiempo antes de eliminarse automáticamente. El correo temporal de TempMail mantiene tu información personal privada."}
+  },
+  "footer": {
+    "aboutTitle": "TempMail",
+    "about": "Servicio de correo temporal para comunicación anónima y segura.",
+    "featuresTitle": "Funciones",
+    "useCasesTitle": "Casos de uso",
+    "supportTitle": "Soporte",
+    "features": ["Correo temporal", "Comunicación anónima", "Protección de privacidad", "Auto-limpieza"],
+    "useCases": ["Pruebas gratuitas", "Testing", "Prevención de spam", "Cuentas anónimas"],
+    "support": ["FAQ", "Política de privacidad", "Términos de servicio", "Contacto"],
+    "copyright": "© 2024 TempMail. Todos los derechos reservados. Servicio de correo temporal."
+  },
+  "createEmail": {
+    "title": "Crear cuenta de correo",
+    "subtitle": "Crea una nueva cuenta temporal con el dominio elegido",
+    "username": "Nombre de usuario",
+    "enterUsername": "Introduce nombre de usuario",
+    "selectDomain": "Selecciona dominio",
+    "enterPassword": "Introduce contraseña",
+    "loadingDomains": "Cargando dominios...",
+    "backToInbox": "Volver a la bandeja",
+    "currentUserAccount": "Cuenta de usuario actual",
+    "success": "¡Cuenta {email} creada con éxito! Redirigiendo a la bandeja..."
+  }
+}
+
+
