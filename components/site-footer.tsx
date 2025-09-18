@@ -15,7 +15,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="mb-4 flex items-center space-x-2">
-              <Image src="/logo.png" alt="TempMail" width={118} height={48} />
+              <span className="text-xl font-semibold text-white">Inboxes</span>
             </div>
             <p className="text-gray-400">{t('footer.about')}</p>
             <div className="mt-4 flex items-center space-x-3">
@@ -29,7 +29,14 @@ export function SiteFooter() {
               {(t as any).raw('footer.features')?.map((f: string, i: number) => (<li key={i}>{f}</li>))}
             </ul>
           </div>
-          <div />
+          <div>
+            <h4 className="text-md font-semibold mb-4">{t('pages.blog.title')}</h4>
+            <ul className="space-y-2 text-gray-400">
+              <li>
+                <Link className="hover:text-white" href={`/${locale}/blog`}>{t('pages.blog.intro')}</Link>
+              </li>
+            </ul>
+          </div>
           <div>
             <h4 className="text-md font-semibold mb-4">{t('footer.supportTitle')}</h4>
             <ul className="space-y-2 text-gray-400">

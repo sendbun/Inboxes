@@ -48,6 +48,8 @@ import { useDomains } from "@/hooks/use-domains"
 import { validatePassword, isUserLoggedIn } from "@/lib/user-account-service"
 import { generateStrongPassword } from "@/lib/email-service"
 import LanguageSwitcher, { languageOptions } from "@/components/language-switcher"
+import { SiteHeader } from "@/components/site-header"
+import { SiteFooter } from "@/components/site-footer"
 
 export default function HomePage() {
   const locale = useLocale()
@@ -219,7 +221,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      {/* Header moved to layout */}
+      <SiteHeader />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
@@ -443,7 +445,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer moved to layout */}
+      <SiteFooter />
     </div>
   )
 }

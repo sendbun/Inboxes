@@ -31,6 +31,15 @@
         {"h": "Sin garantía", "p": "TempMail se proporciona tal cual, sin garantías. No se garantiza disponibilidad ni retención."},
         {"h": "Limitación de responsabilidad", "p": "En la medida permitida por la ley, TempMail no será responsable por daños derivados del uso del servicio."}
       ]
+    },
+    "blog": {
+      "title": "Blog",
+      "intro": "Últimos consejos y novedades sobre privacidad y correo temporal.",
+      "posts": [
+        {"title": "¿Por qué usar correo temporal?", "excerpt": "Cómo los buzones desechables te protegen del spam y fugas de datos."},
+        {"title": "Buenas prácticas de privacidad", "excerpt": "Atajos para reducir tu huella digital cada día."},
+        {"title": "Novedades del producto", "excerpt": "Nuevas funciones y mejoras para hacer TempMail más rápido y seguro."}
+      ]
     }
   },
   "nav": {

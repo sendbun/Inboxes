@@ -48,6 +48,7 @@ import { toast } from "sonner"
 import { Progress } from "@/components/ui/progress"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { AccountPopup } from "@/components/AccountPopup"
+import Image from "next/image"
 
 // Utility to format bytes to human readable string
 function formatBytes(bytes: number): string {
@@ -559,8 +560,7 @@ export default function InboxPage() {
            {/* Header content... */}
            <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2">
-                    <Mail className="h-6 w-6 text-blue-600" />
-                    <span className="text-xl font-semibold">TempMail</span>
+                    <Image src="/logo.png" alt="TempMail" width={118} height={48} />
                     {/* WebSocket Status Indicator */}
                     <TooltipProvider>
                       <Tooltip>

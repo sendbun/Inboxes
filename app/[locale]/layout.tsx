@@ -5,8 +5,6 @@ import "../globals.css"
 import { Toaster } from "@/components/ui/sonner"
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocaleMessages } from "@/lib/i18n-config"
-import { SiteHeader } from '@/components/site-header'
-import { SiteFooter } from '@/components/site-footer'
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -62,9 +60,7 @@ export default async function LocaleLayout({
       </head>
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <SiteHeader />
           {children}
-          <SiteFooter />
           <Toaster />
         </NextIntlClientProvider>
       </body>

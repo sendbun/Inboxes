@@ -31,6 +31,15 @@
         {"h": "No Warranty", "p": "TempMail is provided as-is without warranties. Service availability and retention are not guaranteed."},
         {"h": "Limitation of Liability", "p": "To the extent permitted by law, TempMail shall not be liable for any damages arising from use of the service."}
       ]
+    },
+    "blog": {
+      "title": "Blog",
+      "intro": "Latest tips and updates about privacy and temporary email.",
+      "posts": [
+        {"title": "Why use temporary email?", "excerpt": "How disposable inboxes protect you from spam and data leaks."},
+        {"title": "Best practices for privacy", "excerpt": "Quick wins to reduce your digital footprint every day."},
+        {"title": "Product updates", "excerpt": "New features and improvements to make TempMail faster and safer."}
+      ]
     }
   },
   "nav": {
